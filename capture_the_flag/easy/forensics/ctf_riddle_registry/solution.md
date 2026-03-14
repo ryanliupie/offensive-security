@@ -34,4 +34,12 @@ When we upload the `confidential.pdf` into this tool, we get the following:
 
 ### Tips for forensics CTFS 
 
-- <b>Always record hashes:</b> Do this before you touch the file as it is a good habit and for reproducabiltiy. 
+- <b>Always record hashes:</b> Do this before you touch the file as it is a good habit and for reproducibility. 
+
+- <b>Work in an isolated VM</b> to ensure main computer does not get compromised 
+
+- <b>Search</b> for the actual flag possibly, maybe search for `picoCTF` or `{`, etc... 
+
+- <b>If nothing obvious appears, inspect attachments.</b>. We can use `pdfdetach` to see whether the pdf has embedded attachments, `pdf-parser.py` which is a forensics tool for inspecting PDF objects one by one, and `qpdf` which can decode or uncompress PDF contents so they are easier to inspect. 
+
+- <b>Look for common encodings</b> - such as `Base64`, `hex`, `rot13`, or `URL encoding`.
