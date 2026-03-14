@@ -7,8 +7,6 @@ This repository is my studies around Offensive Security & CTF (Capture the Flag)
 
 - Category: `General Skills` 
 
-    - <a href="../../../../../capture_the_flag/easy/general_skills/ctf_log_hunt/solution.md"> Log Hunt</a>  
+    - <a href="capture_the_flag/easy/general_skills/ctf_log_hunt">Log Hunt</a>  
 
 ### Medium 
-
-### Hard
