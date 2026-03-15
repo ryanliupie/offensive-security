@@ -26,8 +26,10 @@ When we upload the `confidential.pdf` into this tool, we get the following:
 - <b>Author:</b> `cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5kIV9jOTk5ZTJhNH0=`. The Author is a metadata field that says who created the file. The gibberish is a string that is <b>Base64 encoded</b>. This type of format is used to represent data is ASCII text form, often for storage or transmission through text-based systems. Some systems can handle this format more easily than raw bytes or special characters. NOTE! it does not protect the data, just encoded it to look like something else: Some characteristics are: 
 
     - It uses <b>A–Z, a–z, 0–9, +, /</b>
-    - Often ends with `=` or `==`
+    - May ends with `=` or `==`
     - Looks like random letters but still readable in ASCII  
+    - String length must be a multiple of 4 such as 4, 8, 12, 16, 20, 28, 32, 36, etc... 
+
 
 - When we decode, we get `picoCTF{puzzl3d_m3tadata_f0und!_c999e2a4}`
 <hr>
