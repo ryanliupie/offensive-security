@@ -13,4 +13,6 @@ This repository is my studies around Offensive Security & CTF (Capture the Flag)
 
     - <a href="capture_the_flag/easy/forensics/ctf_riddle_registry">Riddle Registry</a>
 
+    - <a href="capture_the_flag/easy/forensics/ctf_hidden_in_plainsight/">Hidden in Plainsight</a>
+
 ### Medium 
