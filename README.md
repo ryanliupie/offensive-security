@@ -11,6 +11,10 @@ This repository is my studies around Offensive Security & CTF (Capture the Flag)
 
     - <a href="capture_the_flag/easy/general_skills/ctf_time_machine">Time Machine</a>
 
+    - <a href="capture_the_flag/easy/general_skills/ctf_super_ssh/">Super SSH</a>
+
+    - <a href="capture_the_flag/easy/general_skills/ctf_commitment_issues/">Commitment Issues</a>
+
 - <b>Category:</b> `Forensics`
 
     - <a href="capture_the_flag/easy/forensics/ctf_riddle_registry">Riddle Registry</a>
