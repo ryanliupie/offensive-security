@@ -21,4 +21,8 @@ This repository is my studies around Offensive Security & CTF (Capture the Flag)
 
     - <a href="capture_the_flag/easy/forensics/ctf_hidden_in_plainsight/">Hidden in Plainsight</a>
 
+- <b>Category:</b> `Cryptography`
+
+    - <a href="capture_the_flag/easy/cryptography/ctf_hashcrack/">HashCrack</a>
+
 ### Medium 
