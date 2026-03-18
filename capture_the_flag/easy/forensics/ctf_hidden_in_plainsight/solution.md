@@ -1,4 +1,4 @@
-## Hidden in Plainsight
+## Hidden in Plain sight
 
 ### Description  
 
@@ -8,7 +8,7 @@ You’re given a seemingly ordinary JPG image. Something is tucked away out of s
 
 - The metadata field `comment` contains c3RlZ2hpZGU6Y0VGNmVuZHZjbVE9l, which seems like a Base64 string. By decoding it, we get "steghide:cEF6endvcmQ=". Again, when we decode this, we get "'^pAzzword". I think this is a possibly a password.  
 
-- `steghide` is interesting. After doing some research, it is a stenography tool which means it hides information such as text or files. It seems we can extract the hidden data with this tool. 
+- `steghide` is interesting. After doing some research, it is a steganography tool which means it hides information such as text or files. It seems we can extract the hidden data with this tool. 
 
 Install `steghide`
 
