@@ -31,4 +31,6 @@ This repository is my studies around Offensive Security & CTF (Capture the Flag)
 
     - <a href="capture_the_flag/easy/cryptography/ctf_hashcrack/">HashCrack</a>
 
+    - <a href="capture_the_flag/easy/cryptography/even_rsa_can_be_broken/">Even RSA Can Be Broken</a>
+
 ### Medium 
