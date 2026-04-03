@@ -16,7 +16,7 @@ There are a couple of components used (able to see in python code):
 
 <b>Key generation:</b> The user picks 2 large prime numbers (`p` and `q`) and multiplies to create a modulus `n`. 
 
-<b>Public Key:</b> Modulus `n` and <i>public exponent</i> `e` are shared to anyone openly. Anyone can use this to encrypt a messsage. 
+<b>Public Key:</b> Modulus `n` and <i>public exponent</i> `e` are shared to anyone openly. Anyone can use this to encrypt a message. 
 
 <b>Private Key:</b> A <i>secret exponent</i> `d` is calculated using `p` and `q`. This is the only key that can decrypt a message. 
 
