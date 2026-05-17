@@ -57,10 +57,43 @@ There are a feb sub-stages in this step:
 
 ## Primary Scopes 
 
-There are three primary scopes when testing an application. The level of testing significantly impacts the results of the engagement. 
+There are three primary scopes when testing an application. The level of testing significantly impacts the results of the engagement. The first 3 describe how much information the test gets before testing. 
 
 - <b>1. Black-Box</b> → In this test, the tester is not given any knowledge, they are on their own. This means time spent on information gathering and enumeration heavily increases to understand the attack surface of the target. 
 
 - <b>2. White-Box</b> →  This is a type test where the tester is given internal knowledge such as source code, architectural diagrams, design details, etc... Overall, a lot of knowledge about the system. 
 
 - <b>3. Grey-Box</b> → This is the `most popular` type of test as it is a mix of Black and Grey testing processes. The tester will have <b>limited knowledge</b> of the internal components of the application or piece of software. This type of test saves time, and is often chosen for well-hardened attack surfaces. 
+
+- <b> 4. Red Teaming → </b> describes the <b>style/objective</b>: act like an attacker to test the organization's detection, response, people, processes, and controls. It can be any of the above types.
+
+- <b>5. Purple Teaming</b> → is more of a <b>collaboration model</b>: red teams work with blue team to improve detections, logging, response playbooks, and technical controls. 
+<hr>
+
+## Types of Testing Environments 
+
+It is important to consider what is to be tested. This can be summarized in the following categories: 
+
+| Category          | Examples |
+|------------------|----------|
+| Network          | Routers, switches, traffic |
+| Web Applications | Frontend/backend web systems |
+| Mobile           | iOS/Android apps |
+| API              | REST/GraphQL endpoints |
+| Thick Clients    | Desktop applications |
+| IoT              | Embedded/smart devices |
+| Cloud            | AWS, Azure, GCP infrastructure |
+| Source Code      | Code-level review |
+| Physical Security| Buildings, hardware access |
+| Employees        | Social engineering |
+| Hosts            | Endpoints, OS-level |
+| Servers          | Backend systems |
+| Security Policies| Configurations and rules |
+| Firewalls        | Network filtering devices |
+| IDS/IPS          | Detection and prevention systems |
+
+<hr>
+
+## Laws and Regulations 
+
+When performing a penetration test, it is important to understand the specific laws per 
