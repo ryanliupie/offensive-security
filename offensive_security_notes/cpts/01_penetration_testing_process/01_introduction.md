@@ -35,6 +35,15 @@ There are three primary scopes when testing an application. The level of testing
 - <b>5. Purple Teaming</b> → is more of a <b>collaboration model</b>: red teams work with blue team to improve detections, logging, response playbooks, and technical controls. 
 <hr>
 
+### Evasiveness
+
+- <b>Non-evasive:</b> The pentest team is not trying to avoid detection at all, speed and coverage is what matters. The goal is simply to "find any vulnerabilities" and not "test the blue". This is common for compliance-driven tests or internal pentests. 
+
+- <b>Hybrid-evasive:</b> The team gradually escalates loudness in stages; finds exploitable issues but increasingly also test whether the SOC notices. It is mainly to map out a <b>detection threshold curve</b> (at what level of stealth does SOC team notice and respond?). 
+
+- <b>Fully evasive:</b> The explicit goal is to test detection and response capabilities, measuring whether the SOC catches you, so noise is the enemy throughout. 
+<hr>
+
 ### Precautionary Measures during a Penetration Test  
 
 As we know, we always need to understand the specific violations in laws around a penetration test. It is important to protect people from `unauthorized access` and `exploitation of their data`, and `ensure their privacy`. 
@@ -101,11 +110,11 @@ As we know, we always need to understand the specific violations in laws around 
 
 | # | Document | Meaning |
 |---|---|---|
-| 1 | `NDA` | Confidentiality agreement. Not leaking sensitive information. |
-| 2 | `Scoping Questionnaire` | Initial form used to understand what the client wants tested. |
-| 3 | `Scoping Document` | Clean summary of what is in scope, based on the questionnaire and discussions. |
-| 4 | `Penetration Testing Proposal / Contract / SoW` | The formal agreement: what work will be done, timeline, cost, responsibilities, and scope. |
-| 5 | `Rules of Engagement` | The “testing rules”: what is allowed, what is not allowed, testing windows, contacts, escalation process, and limits. |
-| 6 | `Contractors Agreement` | Extra permission for physical assessments, like badge testing, office entry testing, or social engineering. |
-| 7 | `Reports` | The deliverables that explain findings, evidence, proof-of-concept, risk, and remediation. 
+| 1 | `NDA` | Confidentiality agreement. Not leaking sensitive information. `After` initial contact.|
+| 2 | `Scoping Questionnaire` | Initial form used to understand what the client wants tested. `Before` the pre-engagement meeting. |
+| 3 | `Scoping Document` | Clean summary of what is in scope, based on the questionnaire and discussions. `During` the pre-engagement meeting. |
+| 4 | `Penetration Testing Proposal / Contract / SoW` | The formal agreement: what work will be done, timeline, cost, responsibilities, and scope. `During` the pre-engagement meeting. |
+| 5 | `Rules of Engagement` | The “testing rules”: what is allowed, what is not allowed, testing windows, contacts, escalation process, and limits. `Before` the kick-off meeting |
+| 6 | `Contractors Agreement` | Extra permission for physical assessments, like badge testing, office entry testing, or social engineering. `Before` the kick-off meeting |
+| 7 | `Reports` | The deliverables that explain findings, evidence, proof-of-concept, risk, and remediation. `During` and `after` the conducted penetration test.
 |
