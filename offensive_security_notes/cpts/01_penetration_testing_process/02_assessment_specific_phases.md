@@ -13,7 +13,7 @@ The entire pre-engagement process consists of three essential components:
     - Web Application Security Assessment
 
 
-2. `Pre-engagement meeting`: This meeting serves as a discussion to understand all relevant and essential components with the customer before the penetration test. It helps making the <b>Scope of Work (SOW)</b>/ <b>Penetration Testing Proposal</b>. The most crucial element of this meeting is the detailed presentation of the penetration test to our client and its focus. As we already know, each piece of infrastructure is unique for the most part, and each client has particular preferences on which they place the most importance. Finding out these priorities is an essential part of this meeting.
+2. `Pre-engagement meeting`: This meeting serves as a discussion to understand all relevant and essential components with the customer before the penetration test. It helps making the <b>Scope of Work (SOW)</b>/<b>Penetration Testing Proposal</b>. The most crucial element of this meeting is the detailed presentation of the penetration test to our client and its focus. As we already know, each piece of infrastructure is unique for the most part, and each client has particular preferences on which they place the most importance. Finding out these priorities is an essential part of this meeting.
 
 3. `Kick-off meeting`: This meeting occurs after all the contractual documents are signed. It usually includes make stakeholders such as IT, Governance, technical support staff, account executives, etc. It is like a pre-engagement meeting, but it simply highlights the nature of the pentest. 
 
@@ -80,6 +80,24 @@ A `service` is anything that is bound to a port that you can interact with over 
 
 ### Host Enumeration 
 
-This is the step <i>before/alongside</i> service enumeration, but instead of asking "what's running on this port", you are asking "what is the `host` or `machine`?". We try to identify the OS running on the OS/host, services used and also the different versions tied to those services. 
+This is the step <i>before/alongside</i> service enumeration, but instead of asking "what's running on this port", you are asking "what is the `host` or `machine`?". We try to identify the OS running on the OS/host, services used,, which ports, and also the different versions tied to those services. 
 
+Some services are not accessible from outside the internal network, thus some administrators believe they are "secure". Due to this, many misconfigurations are often discovered during this phase. This technique is often used after the successful `exploitation` of a vulnerability. It is best to look for sensitive files, local services, scripts, applications, and other information stored on the host.
+
+
+### Pillaging 
+
+<b>Pillaging</b> is the process of collecting valuable information after successfully compromising a system. It occurs during the `Post-Exploitation` phase and supports both information gathering and privilege escalation. 
+<hr>
+
+# 3. Vulnerability Assessment
+
+In this phase, we take the information we have gathered and determine what is actually vulnerable. 
+
+<b>Analysis:</b> This is a detailed examination of an event or process. In most cases it is to determine specific events or to conclude a decision. There are four types including: 
+
+- `Descriptive:` This helps to detect possible outliers in a dataset. What did we find? (e.g., Open ports and services). 
+- `Diagnostic:` This is more so trying to understand why things are happening. Why is this vulnerable? (e.g., Outdated software, and insecure configurations). 
+- `Predictive:` Making future assumptions based on a data set. What could happen if an attacker exploits this? (e.g., insecure code).
+- `Prescriptive:` Determining how to fix a problem. How should it be fixed? (e.g., Software patches and enabling SSO with MFA). 
 
